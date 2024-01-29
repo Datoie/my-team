@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces';
+    /* font-family: 'Montserrat'; */
+}
+.main-img{
+    width: 350px;
+}
+.main-container{
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+#perf{
+    font-family: 'Montserrat';
+    font-weight: 200;
+    color: rgb(154, 154, 154);
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 18px;
+}
+#gab{
+    max-width: 250px;
+    font-size: 35px;
+}
+#text{
+    color: rgb(114, 114, 114);
+    font-family: 'Montserrat';
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#now-fasi{
+    font-size: 35px;
+    color: rgb(53, 136, 53);
+}
+#dzveli-fasi{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: rgb(114, 114, 114);
+    font-weight: 100;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(53, 136, 53);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
